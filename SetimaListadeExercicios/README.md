@@ -1,14 +1,9 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+Implemente uma Lista de Alunos em alocação dinâmica de memória duplamente encadeada com os atributos **id, nome e curso**. Deve ser implementado pelo menos um método recursivo. Realize as seguintes operações:
+* Verificar se a lista está vazia, retornando true se estiver vazia e false se não
+estiver;
+* Adicionar um aluno no início da lista, caso a operação não possa ser realizada, mostre mensagem avisando;
+* Adicionar um aluno no final da lista, caso a operação não possa ser realizada,
+mostre mensagem avisando;
+* Remover um aluno do início da lista, retornando o elemento que foi removido, caso a operação não possa ser realizada, mostre mensagem avisando.
+* Remover um aluno do final da lista, retornando o elemento que foi removido, caso a operação não possa ser realizada, mostre mensagem avisando.
+* Percorrer e apresentar cada um dos elementos da lista
